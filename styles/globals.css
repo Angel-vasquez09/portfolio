@@ -18,7 +18,7 @@ a {
 
 
 .btn-hover:hover {
-  color: #0a1929 !important;
+  color: #60479f !important;
 }
 
 .text{
@@ -49,6 +49,7 @@ a {
 }
 .btn:hover{
   border: 2px solid #4f3b89 !important;
+  background: transparent !important;
   color: #4f3b89 !important;
 }
 

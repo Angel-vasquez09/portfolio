@@ -21,7 +21,7 @@ const Home: NextPage = () => {
       description={'Portafolio de Luis Angel'}>
         <Banner
           title={`Mi nombre es Luis Angel y soy`}
-          subtitle={'Desarrollador web junior'}
+          subtitle={'Desarrollador web'}
           img={'/images/Saly.png'}
         />
 
