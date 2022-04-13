@@ -1,3 +1,4 @@
+
 html,
 body {
   padding: 0;
@@ -14,3 +15,49 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
+.btn-hover:hover {
+  color: #0a1929;
+}
+
+.text{
+  border: 1px solid white;
+  padding: 1px;
+}
+
+.main::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: radial-gradient(circle at 74.52% 20.78%, #a46cdf 0, #60479f 25%, #1f1f59 50%, #00001b 75%, #000000 100%);
+  filter: blur(300px);
+  z-index: -1;
+}
+
+.btn{
+  border: 2px solid white;
+  border-radius: 20px;
+  color: white;
+  width: max-content;
+  text-transform: none !important;
+}
+.btn-1{
+  background: #4f3b89;
+}
+.btn:hover{
+  border: 2px solid #4f3b89;
+  color: #4f3b89;
+}
+
+.MuiDrawer-root > .MuiDrawer-paper {
+  background-image: radial-gradient(circle at 74.52% 20.78%, #a46cdf 0, #60479f 25%, #1f1f59 50%, #00001b 75%, #000000 100%);;
+  border-radius: 0 30px 30px 0;;
+}
+.MuiDrawer-root::after{
+  filter: blur(10px);
+}
+

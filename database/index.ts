@@ -1,0 +1,1 @@
+export * as proyects from './seed-data';
