@@ -18,7 +18,7 @@ a {
 
 
 .btn-hover:hover {
-  color: #0a1929;
+  color: #0a1929 !important;
 }
 
 .text{
@@ -39,18 +39,17 @@ a {
 }
 
 .btn{
-  border: 2px solid white;
-  border-radius: 20px;
-  color: white;
-  width: max-content;
-  text-transform: none !important;
+  border: 2px solid white !important;
+  border-radius: 20px !important;
+  color: white !important;
+  width: max-content !important;
 }
 .btn-1{
-  background: #4f3b89;
+  background: #4f3b89 !important;
 }
 .btn:hover{
-  border: 2px solid #4f3b89;
-  color: #4f3b89;
+  border: 2px solid #4f3b89 !important;
+  color: #4f3b89 !important;
 }
 
 .MuiDrawer-root > .MuiDrawer-paper {
